@@ -45,145 +45,193 @@ ________________________________________________________________________________
 
 ================================================================================
 
-- doctrine/annotations (1.13.3) [MIT]
+- clue/stream-filter (v1.6.0) [MIT]
+- doctrine/annotations (1.14.1) [MIT]
 - doctrine/cache (2.2.0) [MIT]
-- doctrine/collections (1.7.2) [MIT]
-- doctrine/common (3.4.0) [MIT]
-- doctrine/dbal (3.4.4) [MIT]
+- doctrine/collections (1.8.0) [MIT, Multi-license: MIT OR PHP-3.01]
+- doctrine/common (3.4.3) [MIT]
+- doctrine/dbal (3.5.1) [MIT]
 - doctrine/deprecations (v1.0.0) [MIT]
-- doctrine/doctrine-bundle (2.7.0) [MIT]
+- doctrine/doctrine-bundle (2.7.2) [MIT]
 - doctrine/doctrine-migrations-bundle (3.2.2) [MIT]
-- doctrine/event-manager (1.1.2) [MIT]
-- doctrine/inflector (2.0.5) [MIT]
+- doctrine/event-manager (1.2.0) [MIT]
+- doctrine/inflector (2.0.6) [MIT]
 - doctrine/instantiator (1.4.1) [MIT]
 - doctrine/lexer (1.2.3) [MIT]
 - doctrine/migrations (3.5.2) [MIT]
-- doctrine/orm (2.13.1) [MIT]
-- doctrine/persistence (3.0.3) [MIT]
+- doctrine/orm (2.13.4) [MIT]
+- doctrine/persistence (3.1.1) [MIT]
 - doctrine/sql-formatter (1.1.3) [MIT]
 - egulias/email-validator (3.2.1) [MIT, Multi-license: Apache-2.0 OR BSD-3-Clause OR ISC OR MIT OR OSL-3.0]
-- friendsofphp/proxy-manager-lts (v1.0.12) [MIT]
-- laminas/laminas-code (4.6.0) [BSD-2-Clause, BSD-3-Clause, Multi-license: Apache-2.0 OR BSD-2-Clause OR BSD-3-Clause OR ISC OR MIT OR OSL-3.0]
+- friendsofphp/proxy-manager-lts (v1.0.13) [MIT]
+- guzzlehttp/promises (1.5.2) [MIT]
+- hwi/oauth-bundle (1.4.5) [MIT]
+- laminas/laminas-code (4.8.0) [BSD-3-Clause, MIT, OSL-3.0, ISC, BSD-2-Clause, Apache-2.0]
 - monolog/monolog (2.8.0) [MIT]
 - myclabs/deep-copy (1.11.0) [MIT]
-- nikic/php-parser (v4.15.1) [BSD-2-Clause]
+- nikic/php-parser (v4.15.2) [BSD-2-Clause]
+- nyholm/psr7 (1.5.1) [MIT]
 - phar-io/manifest (2.0.3) [BSD-2-Clause]
 - phar-io/version (3.2.1) [BSD-2-Clause]
+- php-http/client-common (2.6.0) [MIT]
+- php-http/discovery (1.14.3) [MIT]
+- php-http/httplug (2.3.0) [MIT]
+- php-http/httplug-bundle (1.27.0) [MIT]
+- php-http/logger-plugin (1.3.0) [MIT]
+- php-http/message (1.13.0) [MIT]
+- php-http/message-factory (v1.0.2) [MIT]
+- php-http/promise (1.1.0) [MIT]
+- php-http/stopwatch-plugin (1.4.1) [MIT]
 - phpdocumentor/reflection-common (2.2.0) [MIT]
 - phpdocumentor/reflection-docblock (5.3.0) [MIT]
-- phpdocumentor/type-resolver (1.6.1) [MIT]
-- phpstan/phpdoc-parser (1.8.0) [MIT]
-- phpunit/php-code-coverage (9.2.17) [BSD-2-Clause]
+- phpdocumentor/type-resolver (1.6.2) [MIT]
+- phpstan/phpdoc-parser (1.15.2) [MIT]
+- phpunit/php-code-coverage (9.2.22) [BSD-2-Clause]
 - phpunit/php-file-iterator (3.0.6) [BSD-2-Clause]
 - phpunit/php-invoker (3.1.1) [BSD-2-Clause]
 - phpunit/php-text-template (2.0.4) [BSD-2-Clause]
 - phpunit/php-timer (5.0.3) [BSD-2-Clause]
-- phpunit/phpunit (9.5.24) [BSD-2-Clause]
+- phpunit/phpunit (9.5.27) [BSD-2-Clause]
 - psr/cache (2.0.0) [MIT]
 - psr/container (1.1.2) [MIT]
 - psr/event-dispatcher (1.0.0) [MIT]
+- psr/http-client (1.0.1) [MIT]
+- psr/http-factory (1.0.1) [MIT]
+- psr/http-message (1.0.1) [MIT]
 - psr/link (1.1.1) [MIT]
 - psr/log (2.0.0) [MIT]
 - sebastian/cli-parser (1.0.1) [BSD-2-Clause]
 - sebastian/code-unit (1.0.8) [BSD-2-Clause]
 - sebastian/code-unit-reverse-lookup (2.0.3) [BSD-2-Clause]
-- sebastian/comparator (4.0.6) [BSD-2-Clause]
+- sebastian/comparator (4.0.8) [BSD-2-Clause]
 - sebastian/complexity (2.0.2) [BSD-2-Clause]
 - sebastian/diff (4.0.4) [BSD-2-Clause]
 - sebastian/environment (5.1.4) [BSD-2-Clause]
-- sebastian/exporter (4.0.4) [BSD-2-Clause]
+- sebastian/exporter (4.0.5) [BSD-2-Clause]
 - sebastian/global-state (5.0.5) [BSD-2-Clause]
 - sebastian/lines-of-code (1.0.3) [BSD-2-Clause]
 - sebastian/object-enumerator (4.0.4) [BSD-2-Clause]
 - sebastian/object-reflector (2.0.4) [BSD-2-Clause]
 - sebastian/recursion-context (4.0.4) [BSD-2-Clause]
 - sebastian/resource-operations (3.0.3) [BSD-2-Clause]
-- sebastian/type (3.1.0) [BSD-2-Clause]
+- sebastian/type (3.2.0) [BSD-2-Clause]
 - sebastian/version (3.0.2) [BSD-2-Clause]
-- sensio/framework-extra-bundle (v6.2.8) [MIT]
-- symfony/amqp-messenger (v5.4.11) [MIT]
-- symfony/asset (v5.4.7) [MIT]
+- sensio/framework-extra-bundle (v6.2.9) [MIT]
+- symfony/amqp-messenger (v5.4.15) [MIT]
+- symfony/asset (v5.4.13) [MIT]
 - symfony/browser-kit (v5.4.11) [MIT]
-- symfony/cache (v5.4.11) [MIT]
+- symfony/cache (v5.4.15) [MIT]
 - symfony/cache-contracts (v2.5.2) [MIT]
 - symfony/config (v5.4.11) [MIT]
-- symfony/console (v5.4.12) [MIT]
+- symfony/console (v5.4.16) [MIT]
 - symfony/css-selector (v5.4.11) [MIT]
 - symfony/debug-bundle (v5.4.11) [MIT]
-- symfony/dependency-injection (v5.4.11) [MIT]
-- symfony/deprecation-contracts (v3.1.1) [MIT]
-- symfony/doctrine-bridge (v5.4.11) [MIT]
-- symfony/doctrine-messenger (v5.4.12) [MIT]
-- symfony/dom-crawler (v5.4.12) [MIT]
+- symfony/dependency-injection (v5.4.16) [MIT]
+- symfony/deprecation-contracts (v3.2.0) [MIT]
+- symfony/doctrine-bridge (v5.4.16) [MIT]
+- symfony/doctrine-messenger (v5.4.16) [MIT]
+- symfony/dom-crawler (v5.4.15) [MIT]
 - symfony/dotenv (v5.4.5) [MIT]
-- symfony/error-handler (v5.4.11) [MIT]
+- symfony/error-handler (v5.4.15) [MIT]
 - symfony/event-dispatcher (v5.4.9) [MIT]
-- symfony/event-dispatcher-contracts (v3.1.1) [MIT]
-- symfony/expression-language (v5.4.11) [MIT]
-- symfony/filesystem (v5.4.12) [MIT]
+- symfony/event-dispatcher-contracts (v3.2.0) [MIT]
+- symfony/expression-language (v5.4.14) [MIT]
+- symfony/filesystem (v5.4.13) [MIT]
 - symfony/finder (v5.4.11) [MIT]
 - symfony/flex (v2.2.3) [MIT]
-- symfony/form (v5.4.12) [MIT]
-- symfony/framework-bundle (v5.4.12) [MIT]
-- symfony/http-client (v5.4.12) [MIT]
+- symfony/form (v5.4.16) [MIT]
+- symfony/framework-bundle (v5.4.16) [MIT]
+- symfony/http-client (v5.4.16) [MIT]
 - symfony/http-client-contracts (v2.5.2) [MIT]
-- symfony/http-foundation (v5.4.12) [MIT]
-- symfony/http-kernel (v5.4.12) [MIT]
-- symfony/intl (v5.4.11) [MIT]
-- symfony/mailer (v5.4.12) [MIT]
-- symfony/maker-bundle (v1.45.0) [MIT]
-- symfony/messenger (v5.4.11) [MIT]
-- symfony/mime (v5.4.12) [MIT]
+- symfony/http-foundation (v5.4.16) [MIT, PHP-3.01, BSD-3-Clause]
+- symfony/http-kernel (v5.4.16) [MIT, PHP-3.01]
+- symfony/intl (v5.4.15) [MIT, PHP-3.01]
+- symfony/mailer (v5.4.16) [MIT]
+- symfony/maker-bundle (v1.48.0) [MIT]
+- symfony/messenger (v5.4.16) [MIT]
+- symfony/mime (v5.4.16) [MIT]
 - symfony/monolog-bridge (v5.4.10) [MIT]
 - symfony/monolog-bundle (v3.8.0) [MIT]
 - symfony/notifier (v5.4.8) [MIT]
 - symfony/options-resolver (v5.4.11) [MIT]
 - symfony/password-hasher (v5.4.11) [MIT]
-- symfony/phpunit-bridge (v6.1.3) [MIT]
+- symfony/phpunit-bridge (v6.2.0) [MIT]
 - symfony/polyfill-ctype () [MIT]
-- symfony/polyfill-intl-grapheme (v1.26.0) [MIT]
-- symfony/polyfill-intl-icu (v1.26.0) [MIT]
-- symfony/polyfill-intl-idn (v1.26.0) [MIT]
-- symfony/polyfill-intl-normalizer (v1.26.0) [MIT]
-- symfony/polyfill-mbstring (v1.26.0) [MIT]
+- symfony/polyfill-intl-grapheme (v1.27.0) [MIT]
+- symfony/polyfill-intl-icu (v1.27.0) [MIT]
+- symfony/polyfill-intl-idn (v1.27.0) [MIT]
+- symfony/polyfill-intl-normalizer (v1.27.0) [MIT]
+- symfony/polyfill-mbstring (v1.27.0) [MIT]
 - symfony/polyfill-php72 (v1.27.0) [MIT]
-- symfony/polyfill-php73 (v1.26.0) [MIT]
-- symfony/polyfill-php80 (v1.26.0) [MIT]
-- symfony/polyfill-php81 (v1.26.0) [MIT]
+- symfony/polyfill-php73 (v1.27.0) [MIT]
+- symfony/polyfill-php80 (v1.27.0) [MIT]
+- symfony/polyfill-php81 (v1.27.0) [MIT]
 - symfony/process (v5.4.11) [MIT-possibility]
-- symfony/property-access (v5.4.11) [MIT]
-- symfony/property-info (v5.4.11) [MIT]
+- symfony/property-access (v5.4.15) [MIT]
+- symfony/property-info (v5.4.16) [MIT]
 - symfony/proxy-manager-bridge (v5.4.6) [MIT]
-- symfony/redis-messenger (v5.4.6) [MIT]
-- symfony/routing (v5.4.11) [MIT]
+- symfony/redis-messenger (v5.4.15) [MIT]
+- symfony/routing (v5.4.15) [MIT]
 - symfony/runtime (v5.4.11) [MIT]
 - symfony/security-bundle (v5.4.11) [MIT]
-- symfony/security-core (v5.4.11) [MIT]
+- symfony/security-core (v5.4.15) [MIT]
 - symfony/security-csrf (v5.4.11) [MIT]
-- symfony/security-guard (v5.4.9) [MIT]
-- symfony/security-http (v5.4.12) [MIT]
-- symfony/serializer (v5.4.12) [MIT]
+- symfony/security-guard (v5.4.13) [MIT]
+- symfony/security-http (v5.4.15) [MIT]
+- symfony/serializer (v5.4.15) [MIT]
 - symfony/service-contracts (v2.5.2) [MIT]
-- symfony/stopwatch (v5.4.5) [MIT]
-- symfony/string (v5.4.12) [MIT]
-- symfony/translation (v5.4.12) [MIT, Multi-license: BSD-3-Clause OR MIT]
+- symfony/stopwatch (v5.4.13) [MIT]
+- symfony/string (v5.4.15) [MIT]
+- symfony/templating (v5.4.11) [MIT]
+- symfony/translation (v5.4.14) [MIT, BSD-3-Clause, PHP-3.01]
 - symfony/translation-contracts (v2.5.2) [MIT, Multi-license: BSD-3-Clause OR MIT OR PHP-3.01]
-- symfony/twig-bridge (v5.4.12) [MIT]
+- symfony/twig-bridge (v5.4.16) [MIT]
 - symfony/twig-bundle (v5.4.8) [MIT]
-- symfony/validator (v5.4.12) [MIT]
-- symfony/var-dumper (v5.4.11) [MIT]
+- symfony/validator (v5.4.15) [MIT, PHP-3.01]
+- symfony/var-dumper (v5.4.14) [MIT]
 - symfony/var-exporter (v5.4.10) [MIT]
 - symfony/web-link (v5.4.3) [MIT]
-- symfony/web-profiler-bundle (v5.4.10) [CC-BY-SA-3.0, MIT]
-- symfony/yaml (v5.4.12) [MIT]
+- symfony/web-profiler-bundle (v5.4.14) [MIT, CC-BY-SA-3.0]
+- symfony/yaml (v5.4.16) [MIT]
 - theseer/tokenizer (1.2.1) [BSD-2-Clause]
 - twig/extra-bundle (v3.4.0) [MIT]
-- twig/twig (v3.4.2) [BSD-2-Clause, BSD-3-Clause, Multi-license: BSD-3-Clause OR PHP-3.01]
+- twig/twig (v3.4.3) [BSD-2-Clause, BSD-3-Clause, Multi-license: BSD-3-Clause OR PHP-3.01]
 - webmozart/assert (1.11.0) [MIT]
 
 
 --------------------------------------------------------------------------------
-Package Title: doctrine/annotations (1.13.3)
+Package Title: clue/stream-filter (v1.6.0)
+--------------------------------------------------------------------------------
+
+* Declared Licenses *
+MIT
+
+The MIT License (MIT)
+
+Copyright (c) 2015 Christian Lück
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is furnished
+to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+
+
+--------------------------------------------------------------------------------
+Package Title: doctrine/annotations (1.14.1)
 --------------------------------------------------------------------------------
 
 * Declared Licenses *
@@ -241,7 +289,7 @@ SOFTWARE.
 
 
 --------------------------------------------------------------------------------
-Package Title: doctrine/collections (1.7.2)
+Package Title: doctrine/collections (1.8.0)
 --------------------------------------------------------------------------------
 
 * Declared Licenses *
@@ -269,8 +317,34 @@ SOFTWARE.
 
 
 
+* Other Licenses *
+Multi-license: MIT OR PHP-3.01
+
+
+Copyright (c) 2006-2013 Doctrine Project
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies
+of the Software, and to permit persons to whom the Software is furnished to do
+so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+
 --------------------------------------------------------------------------------
-Package Title: doctrine/common (3.4.0)
+Package Title: doctrine/common (3.4.3)
 --------------------------------------------------------------------------------
 
 * Declared Licenses *
@@ -299,7 +373,7 @@ SOFTWARE.
 
 
 --------------------------------------------------------------------------------
-Package Title: doctrine/dbal (3.4.4)
+Package Title: doctrine/dbal (3.5.1)
 --------------------------------------------------------------------------------
 
 * Declared Licenses *
@@ -357,7 +431,7 @@ SOFTWARE.
 
 
 --------------------------------------------------------------------------------
-Package Title: doctrine/doctrine-bundle (2.7.0)
+Package Title: doctrine/doctrine-bundle (2.7.2)
 --------------------------------------------------------------------------------
 
 * Declared Licenses *
@@ -409,7 +483,7 @@ THE SOFTWARE.
 
 
 --------------------------------------------------------------------------------
-Package Title: doctrine/event-manager (1.1.2)
+Package Title: doctrine/event-manager (1.2.0)
 --------------------------------------------------------------------------------
 
 * Declared Licenses *
@@ -438,7 +512,7 @@ SOFTWARE.
 
 
 --------------------------------------------------------------------------------
-Package Title: doctrine/inflector (2.0.5)
+Package Title: doctrine/inflector (2.0.6)
 --------------------------------------------------------------------------------
 
 * Declared Licenses *
@@ -554,7 +628,7 @@ SOFTWARE.
 
 
 --------------------------------------------------------------------------------
-Package Title: doctrine/orm (2.13.1)
+Package Title: doctrine/orm (2.13.4)
 --------------------------------------------------------------------------------
 
 * Declared Licenses *
@@ -583,7 +657,7 @@ SOFTWARE.
 
 
 --------------------------------------------------------------------------------
-Package Title: doctrine/persistence (3.0.3)
+Package Title: doctrine/persistence (3.1.1)
 --------------------------------------------------------------------------------
 
 * Declared Licenses *
@@ -698,7 +772,7 @@ THE SOFTWARE.
 
 
 --------------------------------------------------------------------------------
-Package Title: friendsofphp/proxy-manager-lts (v1.0.12)
+Package Title: friendsofphp/proxy-manager-lts (v1.0.13)
 --------------------------------------------------------------------------------
 
 * Declared Licenses *
@@ -727,11 +801,135 @@ SOFTWARE.
 
 
 --------------------------------------------------------------------------------
-Package Title: laminas/laminas-code (4.6.0)
+Package Title: guzzlehttp/promises (1.5.2)
 --------------------------------------------------------------------------------
 
 * Declared Licenses *
-BSD-2-Clause
+MIT
+
+The MIT License (MIT)
+
+Copyright (c) 2015 Michael Dowling <mtdowling@gmail.com>
+Copyright (c) 2015 Graham Campbell <hello@gjcampbell.co.uk>
+Copyright (c) 2017 Tobias Schultze <webmaster@tubo-world.de>
+Copyright (c) 2020 Tobias Nyholm <tobias.nyholm@gmail.com>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+
+
+--------------------------------------------------------------------------------
+Package Title: hwi/oauth-bundle (1.4.5)
+--------------------------------------------------------------------------------
+
+* Declared Licenses *
+MIT
+
+Copyright (c) 2012-2019 Hardware Info - https://hardware.info
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is furnished
+to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+
+
+--------------------------------------------------------------------------------
+Package Title: laminas/laminas-code (4.8.0)
+--------------------------------------------------------------------------------
+
+* Declared Licenses *
+BSD-3-Clause
+
+Copyright (c) 2020 Laminas Project a Series of LF Projects, LLC.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+- Redistributions of source code must retain the above copyright notice, this
+  list of conditions and the following disclaimer.
+
+- Redistributions in binary form must reproduce the above copyright notice,
+  this list of conditions and the following disclaimer in the documentation
+  and/or other materials provided with the distribution.
+
+- Neither the name of Laminas Foundation nor the names of its contributors may
+  be used to endorse or promote products derived from this software without
+  specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+
+
+* Other Licenses *
+MIT, OSL-3.0, ISC, BSD-2-Clause, Apache-2.0
+
+
+Copyright (c) 2023, laminas/laminas-code Contributors
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+Licensed under the Open Software License version 3.0
+
+
+Copyright (c) 2023, laminas/laminas-code Contributors
+Permission to use, copy, modify, and distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.
+THE SOFTWARE IS PROVIDED "AS IS" AND ISC DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL ISC BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
 
 Copyright (c) 2023, laminas/laminas-code Contributors<<beginOptional>>
 All rights reserved.<<endOptional>>
@@ -759,66 +957,19 @@ OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
-* Other Licenses *
-BSD-3-Clause, Multi-license: Apache-2.0 OR BSD-2-Clause OR BSD-3-Clause OR ISC OR MIT OR OSL-3.0
+Copyright 2023, laminas/laminas-code Contributors
 
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
 
-Copyright (c) 2020 Laminas Project a Series of LF Projects, LLC.
+http://www.apache.org/licenses/LICENSE-2.0
 
-Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions are met:
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 
-- Redistributions of source code must retain the above copyright notice, this
-  list of conditions and the following disclaimer.
-
-- Redistributions in binary form must reproduce the above copyright notice,
-  this list of conditions and the following disclaimer in the documentation
-  and/or other materials provided with the distribution.
-
-- Neither the name of Laminas Foundation nor the names of its contributors may
-  be used to endorse or promote products derived from this software without
-  specific prior written permission.
-
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
-ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
-WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
-DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
-ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
-(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
-LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
-ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
-(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
-SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-
-
-
-Copyright (c) 2020 Laminas Project a Series of LF Projects, LLC.
-
-Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions are met:
-
-- Redistributions of source code must retain the above copyright notice, this
-  list of conditions and the following disclaimer.
-
-- Redistributions in binary form must reproduce the above copyright notice,
-  this list of conditions and the following disclaimer in the documentation
-  and/or other materials provided with the distribution.
-
-- Neither the name of Laminas Foundation nor the names of its contributors may
-  be used to endorse or promote products derived from this software without
-  specific prior written permission.
-
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
-ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
-WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
-DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
-ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
-(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
-LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
-ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
-(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
-SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-
+See the License for the specific language governing permissions and limitations under the License.
 
 
 --------------------------------------------------------------------------------
@@ -881,7 +1032,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
 --------------------------------------------------------------------------------
-Package Title: nikic/php-parser (v4.15.1)
+Package Title: nikic/php-parser (v4.15.2)
 --------------------------------------------------------------------------------
 
 * Declared Licenses *
@@ -911,6 +1062,37 @@ SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
 CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+
+--------------------------------------------------------------------------------
+Package Title: nyholm/psr7 (1.5.1)
+--------------------------------------------------------------------------------
+
+* Declared Licenses *
+MIT
+
+MIT License
+
+Copyright (c) 2016 Tobias Nyholm
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
 
 
 --------------------------------------------------------------------------------
@@ -980,6 +1162,264 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
 --------------------------------------------------------------------------------
+Package Title: php-http/client-common (2.6.0)
+--------------------------------------------------------------------------------
+
+* Declared Licenses *
+MIT
+
+Copyright (c) 2015-2016 PHP HTTP Team <team@php-http.org>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is furnished
+to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+
+
+--------------------------------------------------------------------------------
+Package Title: php-http/discovery (1.14.3)
+--------------------------------------------------------------------------------
+
+* Declared Licenses *
+MIT
+
+Copyright (c) 2015-2016 PHP HTTP Team <team@php-http.org>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is furnished
+to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+
+--------------------------------------------------------------------------------
+Package Title: php-http/httplug (2.3.0)
+--------------------------------------------------------------------------------
+
+* Declared Licenses *
+MIT
+
+Copyright (c) 2014 Eric GELOEN <geloen.eric@gmail.com>
+Copyright (c) 2015 PHP HTTP Team <team@php-http.org>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is furnished
+to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+
+--------------------------------------------------------------------------------
+Package Title: php-http/httplug-bundle (1.27.0)
+--------------------------------------------------------------------------------
+
+* Declared Licenses *
+MIT
+
+Copyright (c) 2015 PHP HTTP Team <team@php-http.org>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is furnished
+to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+
+
+--------------------------------------------------------------------------------
+Package Title: php-http/logger-plugin (1.3.0)
+--------------------------------------------------------------------------------
+
+* Declared Licenses *
+MIT
+
+Copyright (c) 2015-2016 PHP HTTP Team <team@php-http.org>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is furnished
+to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+
+
+--------------------------------------------------------------------------------
+Package Title: php-http/message (1.13.0)
+--------------------------------------------------------------------------------
+
+* Declared Licenses *
+MIT
+
+Copyright (c) 2015-2016 PHP HTTP Team <team@php-http.org>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is furnished
+to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+
+
+--------------------------------------------------------------------------------
+Package Title: php-http/message-factory (v1.0.2)
+--------------------------------------------------------------------------------
+
+* Declared Licenses *
+MIT
+
+Copyright (c) 2015-2016 PHP HTTP Team <team@php-http.org>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is furnished
+to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+
+--------------------------------------------------------------------------------
+Package Title: php-http/promise (1.1.0)
+--------------------------------------------------------------------------------
+
+* Declared Licenses *
+MIT
+
+Copyright (c) 2015-2016 PHP HTTP Team <team@php-http.org>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is furnished
+to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+
+--------------------------------------------------------------------------------
+Package Title: php-http/stopwatch-plugin (1.4.1)
+--------------------------------------------------------------------------------
+
+* Declared Licenses *
+MIT
+
+Copyright (c) 2015-2016 PHP HTTP Team <team@php-http.org>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is furnished
+to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+
+
+--------------------------------------------------------------------------------
 Package Title: phpdocumentor/reflection-common (2.2.0)
 --------------------------------------------------------------------------------
 
@@ -1043,7 +1483,7 @@ THE SOFTWARE.
 
 
 --------------------------------------------------------------------------------
-Package Title: phpdocumentor/type-resolver (1.6.1)
+Package Title: phpdocumentor/type-resolver (1.6.2)
 --------------------------------------------------------------------------------
 
 * Declared Licenses *
@@ -1074,7 +1514,7 @@ THE SOFTWARE.
 
 
 --------------------------------------------------------------------------------
-Package Title: phpstan/phpdoc-parser (1.8.0)
+Package Title: phpstan/phpdoc-parser (1.15.2)
 --------------------------------------------------------------------------------
 
 * Declared Licenses *
@@ -1104,7 +1544,7 @@ SOFTWARE.
 
 
 --------------------------------------------------------------------------------
-Package Title: phpunit/php-code-coverage (9.2.17)
+Package Title: phpunit/php-code-coverage (9.2.22)
 --------------------------------------------------------------------------------
 
 * Declared Licenses *
@@ -1269,7 +1709,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
 --------------------------------------------------------------------------------
-Package Title: phpunit/phpunit (9.5.24)
+Package Title: phpunit/phpunit (9.5.27)
 --------------------------------------------------------------------------------
 
 * Declared Licenses *
@@ -1388,6 +1828,92 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+
+--------------------------------------------------------------------------------
+Package Title: psr/http-client (1.0.1)
+--------------------------------------------------------------------------------
+
+* Declared Licenses *
+MIT
+
+Copyright (c) 2017 PHP Framework Interoperability Group
+
+Permission is hereby granted, free of charge, to any person obtaining a copy 
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights 
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell 
+copies of the Software, and to permit persons to whom the Software is 
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in 
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+
+--------------------------------------------------------------------------------
+Package Title: psr/http-factory (1.0.1)
+--------------------------------------------------------------------------------
+
+* Declared Licenses *
+MIT
+
+MIT License
+
+Copyright (c) 2018 PHP-FIG
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+--------------------------------------------------------------------------------
+Package Title: psr/http-message (1.0.1)
+--------------------------------------------------------------------------------
+
+* Declared Licenses *
+MIT
+
+Copyright (c) 2014 PHP Framework Interoperability Group
+
+Permission is hereby granted, free of charge, to any person obtaining a copy 
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights 
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell 
+copies of the Software, and to permit persons to whom the Software is 
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in 
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
 
 
 --------------------------------------------------------------------------------
@@ -1550,7 +2076,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
 --------------------------------------------------------------------------------
-Package Title: sebastian/comparator (4.0.6)
+Package Title: sebastian/comparator (4.0.8)
 --------------------------------------------------------------------------------
 
 * Declared Licenses *
@@ -1682,7 +2208,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
 --------------------------------------------------------------------------------
-Package Title: sebastian/exporter (4.0.4)
+Package Title: sebastian/exporter (4.0.5)
 --------------------------------------------------------------------------------
 
 * Declared Licenses *
@@ -1913,7 +2439,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
 --------------------------------------------------------------------------------
-Package Title: sebastian/type (3.1.0)
+Package Title: sebastian/type (3.2.0)
 --------------------------------------------------------------------------------
 
 * Declared Licenses *
@@ -1979,7 +2505,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
 --------------------------------------------------------------------------------
-Package Title: sensio/framework-extra-bundle (v6.2.8)
+Package Title: sensio/framework-extra-bundle (v6.2.9)
 --------------------------------------------------------------------------------
 
 * Declared Licenses *
@@ -2008,7 +2534,7 @@ THE SOFTWARE.
 
 
 --------------------------------------------------------------------------------
-Package Title: symfony/amqp-messenger (v5.4.11)
+Package Title: symfony/amqp-messenger (v5.4.15)
 --------------------------------------------------------------------------------
 
 * Declared Licenses *
@@ -2037,7 +2563,7 @@ THE SOFTWARE.
 
 
 --------------------------------------------------------------------------------
-Package Title: symfony/asset (v5.4.7)
+Package Title: symfony/asset (v5.4.13)
 --------------------------------------------------------------------------------
 
 * Declared Licenses *
@@ -2095,7 +2621,7 @@ THE SOFTWARE.
 
 
 --------------------------------------------------------------------------------
-Package Title: symfony/cache (v5.4.11)
+Package Title: symfony/cache (v5.4.15)
 --------------------------------------------------------------------------------
 
 * Declared Licenses *
@@ -2182,7 +2708,7 @@ THE SOFTWARE.
 
 
 --------------------------------------------------------------------------------
-Package Title: symfony/console (v5.4.12)
+Package Title: symfony/console (v5.4.16)
 --------------------------------------------------------------------------------
 
 * Declared Licenses *
@@ -2269,7 +2795,7 @@ THE SOFTWARE.
 
 
 --------------------------------------------------------------------------------
-Package Title: symfony/dependency-injection (v5.4.11)
+Package Title: symfony/dependency-injection (v5.4.16)
 --------------------------------------------------------------------------------
 
 * Declared Licenses *
@@ -2298,7 +2824,7 @@ THE SOFTWARE.
 
 
 --------------------------------------------------------------------------------
-Package Title: symfony/deprecation-contracts (v3.1.1)
+Package Title: symfony/deprecation-contracts (v3.2.0)
 --------------------------------------------------------------------------------
 
 * Declared Licenses *
@@ -2327,7 +2853,7 @@ THE SOFTWARE.
 
 
 --------------------------------------------------------------------------------
-Package Title: symfony/doctrine-bridge (v5.4.11)
+Package Title: symfony/doctrine-bridge (v5.4.16)
 --------------------------------------------------------------------------------
 
 * Declared Licenses *
@@ -2356,7 +2882,7 @@ THE SOFTWARE.
 
 
 --------------------------------------------------------------------------------
-Package Title: symfony/doctrine-messenger (v5.4.12)
+Package Title: symfony/doctrine-messenger (v5.4.16)
 --------------------------------------------------------------------------------
 
 * Declared Licenses *
@@ -2385,7 +2911,7 @@ THE SOFTWARE.
 
 
 --------------------------------------------------------------------------------
-Package Title: symfony/dom-crawler (v5.4.12)
+Package Title: symfony/dom-crawler (v5.4.15)
 --------------------------------------------------------------------------------
 
 * Declared Licenses *
@@ -2443,7 +2969,7 @@ THE SOFTWARE.
 
 
 --------------------------------------------------------------------------------
-Package Title: symfony/error-handler (v5.4.11)
+Package Title: symfony/error-handler (v5.4.15)
 --------------------------------------------------------------------------------
 
 * Declared Licenses *
@@ -2501,7 +3027,7 @@ THE SOFTWARE.
 
 
 --------------------------------------------------------------------------------
-Package Title: symfony/event-dispatcher-contracts (v3.1.1)
+Package Title: symfony/event-dispatcher-contracts (v3.2.0)
 --------------------------------------------------------------------------------
 
 * Declared Licenses *
@@ -2530,7 +3056,7 @@ THE SOFTWARE.
 
 
 --------------------------------------------------------------------------------
-Package Title: symfony/expression-language (v5.4.11)
+Package Title: symfony/expression-language (v5.4.14)
 --------------------------------------------------------------------------------
 
 * Declared Licenses *
@@ -2559,7 +3085,7 @@ THE SOFTWARE.
 
 
 --------------------------------------------------------------------------------
-Package Title: symfony/filesystem (v5.4.12)
+Package Title: symfony/filesystem (v5.4.13)
 --------------------------------------------------------------------------------
 
 * Declared Licenses *
@@ -2646,7 +3172,7 @@ THE SOFTWARE.
 
 
 --------------------------------------------------------------------------------
-Package Title: symfony/form (v5.4.12)
+Package Title: symfony/form (v5.4.16)
 --------------------------------------------------------------------------------
 
 * Declared Licenses *
@@ -2675,7 +3201,7 @@ THE SOFTWARE.
 
 
 --------------------------------------------------------------------------------
-Package Title: symfony/framework-bundle (v5.4.12)
+Package Title: symfony/framework-bundle (v5.4.16)
 --------------------------------------------------------------------------------
 
 * Declared Licenses *
@@ -2704,7 +3230,7 @@ THE SOFTWARE.
 
 
 --------------------------------------------------------------------------------
-Package Title: symfony/http-client (v5.4.12)
+Package Title: symfony/http-client (v5.4.16)
 --------------------------------------------------------------------------------
 
 * Declared Licenses *
@@ -2762,7 +3288,7 @@ THE SOFTWARE.
 
 
 --------------------------------------------------------------------------------
-Package Title: symfony/http-foundation (v5.4.12)
+Package Title: symfony/http-foundation (v5.4.16)
 --------------------------------------------------------------------------------
 
 * Declared Licenses *
@@ -2790,8 +3316,55 @@ THE SOFTWARE.
 
 
 
+* Other Licenses *
+PHP-3.01, BSD-3-Clause
+
+
+Copyright (c) 1999 - 2012 The PHP Group. All rights reserved.
+Redistribution and use in source and binary forms, with or without modification, is permitted provided that the following conditions are met:
+   1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+   2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+   3. The name "PHP" must not be used to endorse or promote products derived from this software without prior written permission. For written permission, please contact group@php.net.
+   4. Products derived from this software may not be called "PHP", nor may "PHP" appear in their name, without prior written permission from group@php.net. You may indicate that your software works in conjunction with PHP by saying "Foo for PHP" instead of calling it "PHP Foo" or "phpfoo"
+   5. The PHP Group may publish revised and/or new versions of the license from time to time. Each version will be given a distinguishing version number. Once covered code has been published under a particular version of the license, you may always continue to use it under the terms of that version. You may also choose to use such covered code under the terms of any subsequent version of the license published by the PHP Group. No one other than the PHP Group has the right to modify the terms applicable to covered code created under this License.
+   6. Redistributions of any form whatsoever must retain the following acknowledgment: "This product includes PHP software, freely available from <http://www.php.net/software/>".
+THIS SOFTWARE IS PROVIDED BY THE PHP DEVELOPMENT TEAM ``AS IS'' AND ANY EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE PHP DEVELOPMENT TEAM OR ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+This software consists of voluntary contributions made by many individuals on behalf of the PHP Group.
+The PHP Group can be contacted via Email at group@php.net.
+For more information on the PHP Group and the PHP project, please see <http://www.php.net>.
+PHP includes the Zend Engine, freely available at <http://www.zend.com>.
+
+
+Copyright (c) and license information, please view the LICENSE . All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+   1. Redistributions of source code must retain the above copyright notice,
+      this list of conditions and the following disclaimer.
+
+   2. Redistributions in binary form must reproduce the above copyright notice,
+      this list of conditions and the following disclaimer in the documentation
+      and/or other materials provided with the distribution.
+
+   3. Neither the name of the copyright holder nor the names of its
+      contributors may be used to endorse or promote products derived from
+      this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+
 --------------------------------------------------------------------------------
-Package Title: symfony/http-kernel (v5.4.12)
+Package Title: symfony/http-kernel (v5.4.16)
 --------------------------------------------------------------------------------
 
 * Declared Licenses *
@@ -2819,8 +3392,27 @@ THE SOFTWARE.
 
 
 
+* Other Licenses *
+PHP-3.01
+
+
+Copyright (c) 1999 - 2012 The PHP Group. All rights reserved.
+Redistribution and use in source and binary forms, with or without modification, is permitted provided that the following conditions are met:
+   1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+   2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+   3. The name "PHP" must not be used to endorse or promote products derived from this software without prior written permission. For written permission, please contact group@php.net.
+   4. Products derived from this software may not be called "PHP", nor may "PHP" appear in their name, without prior written permission from group@php.net. You may indicate that your software works in conjunction with PHP by saying "Foo for PHP" instead of calling it "PHP Foo" or "phpfoo"
+   5. The PHP Group may publish revised and/or new versions of the license from time to time. Each version will be given a distinguishing version number. Once covered code has been published under a particular version of the license, you may always continue to use it under the terms of that version. You may also choose to use such covered code under the terms of any subsequent version of the license published by the PHP Group. No one other than the PHP Group has the right to modify the terms applicable to covered code created under this License.
+   6. Redistributions of any form whatsoever must retain the following acknowledgment: "This product includes PHP software, freely available from <http://www.php.net/software/>".
+THIS SOFTWARE IS PROVIDED BY THE PHP DEVELOPMENT TEAM ``AS IS'' AND ANY EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE PHP DEVELOPMENT TEAM OR ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+This software consists of voluntary contributions made by many individuals on behalf of the PHP Group.
+The PHP Group can be contacted via Email at group@php.net.
+For more information on the PHP Group and the PHP project, please see <http://www.php.net>.
+PHP includes the Zend Engine, freely available at <http://www.zend.com>.
+
+
 --------------------------------------------------------------------------------
-Package Title: symfony/intl (v5.4.11)
+Package Title: symfony/intl (v5.4.15)
 --------------------------------------------------------------------------------
 
 * Declared Licenses *
@@ -2848,8 +3440,27 @@ THE SOFTWARE.
 
 
 
+* Other Licenses *
+PHP-3.01
+
+
+Copyright (c) 1999 - 2012 The PHP Group. All rights reserved.
+Redistribution and use in source and binary forms, with or without modification, is permitted provided that the following conditions are met:
+   1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+   2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+   3. The name "PHP" must not be used to endorse or promote products derived from this software without prior written permission. For written permission, please contact group@php.net.
+   4. Products derived from this software may not be called "PHP", nor may "PHP" appear in their name, without prior written permission from group@php.net. You may indicate that your software works in conjunction with PHP by saying "Foo for PHP" instead of calling it "PHP Foo" or "phpfoo"
+   5. The PHP Group may publish revised and/or new versions of the license from time to time. Each version will be given a distinguishing version number. Once covered code has been published under a particular version of the license, you may always continue to use it under the terms of that version. You may also choose to use such covered code under the terms of any subsequent version of the license published by the PHP Group. No one other than the PHP Group has the right to modify the terms applicable to covered code created under this License.
+   6. Redistributions of any form whatsoever must retain the following acknowledgment: "This product includes PHP software, freely available from <http://www.php.net/software/>".
+THIS SOFTWARE IS PROVIDED BY THE PHP DEVELOPMENT TEAM ``AS IS'' AND ANY EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE PHP DEVELOPMENT TEAM OR ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+This software consists of voluntary contributions made by many individuals on behalf of the PHP Group.
+The PHP Group can be contacted via Email at group@php.net.
+For more information on the PHP Group and the PHP project, please see <http://www.php.net>.
+PHP includes the Zend Engine, freely available at <http://www.zend.com>.
+
+
 --------------------------------------------------------------------------------
-Package Title: symfony/mailer (v5.4.12)
+Package Title: symfony/mailer (v5.4.16)
 --------------------------------------------------------------------------------
 
 * Declared Licenses *
@@ -2878,7 +3489,7 @@ THE SOFTWARE.
 
 
 --------------------------------------------------------------------------------
-Package Title: symfony/maker-bundle (v1.45.0)
+Package Title: symfony/maker-bundle (v1.48.0)
 --------------------------------------------------------------------------------
 
 * Declared Licenses *
@@ -2907,7 +3518,7 @@ THE SOFTWARE.
 
 
 --------------------------------------------------------------------------------
-Package Title: symfony/messenger (v5.4.11)
+Package Title: symfony/messenger (v5.4.16)
 --------------------------------------------------------------------------------
 
 * Declared Licenses *
@@ -2936,7 +3547,7 @@ THE SOFTWARE.
 
 
 --------------------------------------------------------------------------------
-Package Title: symfony/mime (v5.4.12)
+Package Title: symfony/mime (v5.4.16)
 --------------------------------------------------------------------------------
 
 * Declared Licenses *
@@ -3110,7 +3721,7 @@ THE SOFTWARE.
 
 
 --------------------------------------------------------------------------------
-Package Title: symfony/phpunit-bridge (v6.1.3)
+Package Title: symfony/phpunit-bridge (v6.2.0)
 --------------------------------------------------------------------------------
 
 * Declared Licenses *
@@ -3194,7 +3805,7 @@ THE SOFTWARE.
 
 
 --------------------------------------------------------------------------------
-Package Title: symfony/polyfill-intl-grapheme (v1.26.0)
+Package Title: symfony/polyfill-intl-grapheme (v1.27.0)
 --------------------------------------------------------------------------------
 
 * Declared Licenses *
@@ -3223,7 +3834,7 @@ THE SOFTWARE.
 
 
 --------------------------------------------------------------------------------
-Package Title: symfony/polyfill-intl-icu (v1.26.0)
+Package Title: symfony/polyfill-intl-icu (v1.27.0)
 --------------------------------------------------------------------------------
 
 * Declared Licenses *
@@ -3252,7 +3863,7 @@ THE SOFTWARE.
 
 
 --------------------------------------------------------------------------------
-Package Title: symfony/polyfill-intl-idn (v1.26.0)
+Package Title: symfony/polyfill-intl-idn (v1.27.0)
 --------------------------------------------------------------------------------
 
 * Declared Licenses *
@@ -3281,7 +3892,7 @@ THE SOFTWARE.
 
 
 --------------------------------------------------------------------------------
-Package Title: symfony/polyfill-intl-normalizer (v1.26.0)
+Package Title: symfony/polyfill-intl-normalizer (v1.27.0)
 --------------------------------------------------------------------------------
 
 * Declared Licenses *
@@ -3310,7 +3921,7 @@ THE SOFTWARE.
 
 
 --------------------------------------------------------------------------------
-Package Title: symfony/polyfill-mbstring (v1.26.0)
+Package Title: symfony/polyfill-mbstring (v1.27.0)
 --------------------------------------------------------------------------------
 
 * Declared Licenses *
@@ -3368,7 +3979,7 @@ THE SOFTWARE.
 
 
 --------------------------------------------------------------------------------
-Package Title: symfony/polyfill-php73 (v1.26.0)
+Package Title: symfony/polyfill-php73 (v1.27.0)
 --------------------------------------------------------------------------------
 
 * Declared Licenses *
@@ -3397,7 +4008,7 @@ THE SOFTWARE.
 
 
 --------------------------------------------------------------------------------
-Package Title: symfony/polyfill-php80 (v1.26.0)
+Package Title: symfony/polyfill-php80 (v1.27.0)
 --------------------------------------------------------------------------------
 
 * Declared Licenses *
@@ -3426,7 +4037,7 @@ THE SOFTWARE.
 
 
 --------------------------------------------------------------------------------
-Package Title: symfony/polyfill-php81 (v1.26.0)
+Package Title: symfony/polyfill-php81 (v1.27.0)
 --------------------------------------------------------------------------------
 
 * Declared Licenses *
@@ -3482,7 +4093,7 @@ SOFTWARE.
 
 
 --------------------------------------------------------------------------------
-Package Title: symfony/property-access (v5.4.11)
+Package Title: symfony/property-access (v5.4.15)
 --------------------------------------------------------------------------------
 
 * Declared Licenses *
@@ -3511,7 +4122,7 @@ THE SOFTWARE.
 
 
 --------------------------------------------------------------------------------
-Package Title: symfony/property-info (v5.4.11)
+Package Title: symfony/property-info (v5.4.16)
 --------------------------------------------------------------------------------
 
 * Declared Licenses *
@@ -3569,7 +4180,7 @@ THE SOFTWARE.
 
 
 --------------------------------------------------------------------------------
-Package Title: symfony/redis-messenger (v5.4.6)
+Package Title: symfony/redis-messenger (v5.4.15)
 --------------------------------------------------------------------------------
 
 * Declared Licenses *
@@ -3598,7 +4209,7 @@ THE SOFTWARE.
 
 
 --------------------------------------------------------------------------------
-Package Title: symfony/routing (v5.4.11)
+Package Title: symfony/routing (v5.4.15)
 --------------------------------------------------------------------------------
 
 * Declared Licenses *
@@ -3685,7 +4296,7 @@ THE SOFTWARE.
 
 
 --------------------------------------------------------------------------------
-Package Title: symfony/security-core (v5.4.11)
+Package Title: symfony/security-core (v5.4.15)
 --------------------------------------------------------------------------------
 
 * Declared Licenses *
@@ -3743,7 +4354,7 @@ THE SOFTWARE.
 
 
 --------------------------------------------------------------------------------
-Package Title: symfony/security-guard (v5.4.9)
+Package Title: symfony/security-guard (v5.4.13)
 --------------------------------------------------------------------------------
 
 * Declared Licenses *
@@ -3772,7 +4383,7 @@ THE SOFTWARE.
 
 
 --------------------------------------------------------------------------------
-Package Title: symfony/security-http (v5.4.12)
+Package Title: symfony/security-http (v5.4.15)
 --------------------------------------------------------------------------------
 
 * Declared Licenses *
@@ -3801,7 +4412,7 @@ THE SOFTWARE.
 
 
 --------------------------------------------------------------------------------
-Package Title: symfony/serializer (v5.4.12)
+Package Title: symfony/serializer (v5.4.15)
 --------------------------------------------------------------------------------
 
 * Declared Licenses *
@@ -3859,7 +4470,7 @@ THE SOFTWARE.
 
 
 --------------------------------------------------------------------------------
-Package Title: symfony/stopwatch (v5.4.5)
+Package Title: symfony/stopwatch (v5.4.13)
 --------------------------------------------------------------------------------
 
 * Declared Licenses *
@@ -3888,7 +4499,7 @@ THE SOFTWARE.
 
 
 --------------------------------------------------------------------------------
-Package Title: symfony/string (v5.4.12)
+Package Title: symfony/string (v5.4.15)
 --------------------------------------------------------------------------------
 
 * Declared Licenses *
@@ -3917,7 +4528,36 @@ THE SOFTWARE.
 
 
 --------------------------------------------------------------------------------
-Package Title: symfony/translation (v5.4.12)
+Package Title: symfony/templating (v5.4.11)
+--------------------------------------------------------------------------------
+
+* Declared Licenses *
+MIT
+
+Copyright (c) 2004-2022 Fabien Potencier
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is furnished
+to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+
+
+--------------------------------------------------------------------------------
+Package Title: symfony/translation (v5.4.14)
 --------------------------------------------------------------------------------
 
 * Declared Licenses *
@@ -3946,29 +4586,50 @@ THE SOFTWARE.
 
 
 * Other Licenses *
-Multi-license: BSD-3-Clause OR MIT
+BSD-3-Clause, PHP-3.01
 
 
-Copyright (c) 2004-2022 Fabien Potencier
+Copyright (c) and license information, please view the LICENSE . All rights reserved.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is furnished
-to do so, subject to the following conditions:
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+   1. Redistributions of source code must retain the above copyright notice,
+      this list of conditions and the following disclaimer.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
+   2. Redistributions in binary form must reproduce the above copyright notice,
+      this list of conditions and the following disclaimer in the documentation
+      and/or other materials provided with the distribution.
 
+   3. Neither the name of the copyright holder nor the names of its
+      contributors may be used to endorse or promote products derived from
+      this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+
+Copyright (c) 1999 - 2012 The PHP Group. All rights reserved.
+Redistribution and use in source and binary forms, with or without modification, is permitted provided that the following conditions are met:
+   1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+   2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+   3. The name "PHP" must not be used to endorse or promote products derived from this software without prior written permission. For written permission, please contact group@php.net.
+   4. Products derived from this software may not be called "PHP", nor may "PHP" appear in their name, without prior written permission from group@php.net. You may indicate that your software works in conjunction with PHP by saying "Foo for PHP" instead of calling it "PHP Foo" or "phpfoo"
+   5. The PHP Group may publish revised and/or new versions of the license from time to time. Each version will be given a distinguishing version number. Once covered code has been published under a particular version of the license, you may always continue to use it under the terms of that version. You may also choose to use such covered code under the terms of any subsequent version of the license published by the PHP Group. No one other than the PHP Group has the right to modify the terms applicable to covered code created under this License.
+   6. Redistributions of any form whatsoever must retain the following acknowledgment: "This product includes PHP software, freely available from <http://www.php.net/software/>".
+THIS SOFTWARE IS PROVIDED BY THE PHP DEVELOPMENT TEAM ``AS IS'' AND ANY EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE PHP DEVELOPMENT TEAM OR ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+This software consists of voluntary contributions made by many individuals on behalf of the PHP Group.
+The PHP Group can be contacted via Email at group@php.net.
+For more information on the PHP Group and the PHP project, please see <http://www.php.net>.
+PHP includes the Zend Engine, freely available at <http://www.zend.com>.
 
 
 --------------------------------------------------------------------------------
@@ -4027,7 +4688,7 @@ THE SOFTWARE.
 
 
 --------------------------------------------------------------------------------
-Package Title: symfony/twig-bridge (v5.4.12)
+Package Title: symfony/twig-bridge (v5.4.16)
 --------------------------------------------------------------------------------
 
 * Declared Licenses *
@@ -4085,7 +4746,7 @@ THE SOFTWARE.
 
 
 --------------------------------------------------------------------------------
-Package Title: symfony/validator (v5.4.12)
+Package Title: symfony/validator (v5.4.15)
 --------------------------------------------------------------------------------
 
 * Declared Licenses *
@@ -4113,8 +4774,27 @@ THE SOFTWARE.
 
 
 
+* Other Licenses *
+PHP-3.01
+
+
+Copyright (c) 1999 - 2012 The PHP Group. All rights reserved.
+Redistribution and use in source and binary forms, with or without modification, is permitted provided that the following conditions are met:
+   1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+   2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+   3. The name "PHP" must not be used to endorse or promote products derived from this software without prior written permission. For written permission, please contact group@php.net.
+   4. Products derived from this software may not be called "PHP", nor may "PHP" appear in their name, without prior written permission from group@php.net. You may indicate that your software works in conjunction with PHP by saying "Foo for PHP" instead of calling it "PHP Foo" or "phpfoo"
+   5. The PHP Group may publish revised and/or new versions of the license from time to time. Each version will be given a distinguishing version number. Once covered code has been published under a particular version of the license, you may always continue to use it under the terms of that version. You may also choose to use such covered code under the terms of any subsequent version of the license published by the PHP Group. No one other than the PHP Group has the right to modify the terms applicable to covered code created under this License.
+   6. Redistributions of any form whatsoever must retain the following acknowledgment: "This product includes PHP software, freely available from <http://www.php.net/software/>".
+THIS SOFTWARE IS PROVIDED BY THE PHP DEVELOPMENT TEAM ``AS IS'' AND ANY EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE PHP DEVELOPMENT TEAM OR ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+This software consists of voluntary contributions made by many individuals on behalf of the PHP Group.
+The PHP Group can be contacted via Email at group@php.net.
+For more information on the PHP Group and the PHP project, please see <http://www.php.net>.
+PHP includes the Zend Engine, freely available at <http://www.zend.com>.
+
+
 --------------------------------------------------------------------------------
-Package Title: symfony/var-dumper (v5.4.11)
+Package Title: symfony/var-dumper (v5.4.14)
 --------------------------------------------------------------------------------
 
 * Declared Licenses *
@@ -4201,14 +4881,36 @@ THE SOFTWARE.
 
 
 --------------------------------------------------------------------------------
-Package Title: symfony/web-profiler-bundle (v5.4.10)
+Package Title: symfony/web-profiler-bundle (v5.4.14)
 --------------------------------------------------------------------------------
 
 * Declared Licenses *
 No licenses found
 
 * Other Licenses *
-CC-BY-SA-3.0, MIT
+MIT, CC-BY-SA-3.0
+
+
+Copyright (c) 2004-2022 Fabien Potencier
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is furnished
+to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
 
 
 <<beginOptional>> CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE LEGAL SERVICES. DISTRIBUTION OF THIS LICENSE DOES NOT CREATE AN ATTORNEY-CLIENT RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS INFORMATION ON AN "AS-IS" BASIS. CREATIVE COMMONS MAKES NO WARRANTIES REGARDING THE INFORMATION PROVIDED, AND DISCLAIMS LIABILITY FOR DAMAGES RESULTING FROM ITS USE.
@@ -4262,30 +4964,8 @@ Except for the limited purpose of indicating to the public that the Work is lice
 Creative Commons may be contacted at http://creativecommons.org/.
 
 
-Copyright (c) 2004-2022 Fabien Potencier
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is furnished
-to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
-
-
-
 --------------------------------------------------------------------------------
-Package Title: symfony/yaml (v5.4.12)
+Package Title: symfony/yaml (v5.4.16)
 --------------------------------------------------------------------------------
 
 * Declared Licenses *
@@ -4376,7 +5056,7 @@ THE SOFTWARE.
 
 
 --------------------------------------------------------------------------------
-Package Title: twig/twig (v3.4.2)
+Package Title: twig/twig (v3.4.3)
 --------------------------------------------------------------------------------
 
 * Declared Licenses *
@@ -4997,6 +5677,29 @@ THE SOFTWARE.
 
 * MIT *
 
+Copyright (c) 2012-2019 Hardware Info - https://hardware.info
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is furnished
+to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+
+* MIT *
+
 Copyright (c) 2013 Marco Pivetta
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
@@ -5066,6 +5769,51 @@ SOFTWARE.
 
 * MIT *
 
+Copyright (c) 2014 Eric GELOEN <geloen.eric@gmail.com>
+Copyright (c) 2015 PHP HTTP Team <team@php-http.org>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is furnished
+to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+* MIT *
+
+Copyright (c) 2014 PHP Framework Interoperability Group
+
+Permission is hereby granted, free of charge, to any person obtaining a copy 
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights 
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell 
+copies of the Software, and to permit persons to whom the Software is 
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in 
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+* MIT *
+
 Copyright (c) 2014-2022 Fabien Potencier
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -5108,6 +5856,74 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
+
+* MIT *
+
+Copyright (c) 2015 PHP HTTP Team <team@php-http.org>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is furnished
+to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+
+* MIT *
+
+Copyright (c) 2015-2016 PHP HTTP Team <team@php-http.org>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is furnished
+to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+* MIT *
+
+Copyright (c) 2015-2016 PHP HTTP Team <team@php-http.org>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is furnished
+to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
 
 * MIT *
 
@@ -5200,6 +6016,28 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
+
+* MIT *
+
+Copyright (c) 2017 PHP Framework Interoperability Group
+
+Permission is hereby granted, free of charge, to any person obtaining a copy 
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights 
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell 
+copies of the Software, and to permit persons to whom the Software is 
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in 
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
 
 * MIT *
 
@@ -5520,6 +6358,31 @@ SOFTWARE.
 
 MIT License
 
+Copyright (c) 2016 Tobias Nyholm
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+* MIT *
+
+MIT License
+
 Copyright (c) 2018 PHP-FIG
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -5705,6 +6568,59 @@ FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
 COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
 IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+* MIT *
+
+The MIT License (MIT)
+
+Copyright (c) 2015 Christian Lück
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is furnished
+to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+
+* MIT *
+
+The MIT License (MIT)
+
+Copyright (c) 2015 Michael Dowling <mtdowling@gmail.com>
+Copyright (c) 2015 Graham Campbell <hello@gjcampbell.co.uk>
+Copyright (c) 2017 Tobias Schultze <webmaster@tubo-world.de>
+Copyright (c) 2020 Tobias Nyholm <tobias.nyholm@gmail.com>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
 
 
 * MIT *

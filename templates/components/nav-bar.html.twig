@@ -17,17 +17,21 @@
             >
                 Public
             </a>
-            <a href="{{ path('protected_message') }}"
-                class="nav-bar__tab"
-            >
-                Protected
-            </a>
-            <a href="{{ path('admin_message') }}"
-                class="nav-bar__tab"
-            >
-                Admin
-            </a>
+            {% if (app.user != null) %}
+                <a href="{{ path('protected_message') }}"
+                    class="nav-bar__tab"
+                >
+                    Protected
+                </a>
+                <a href="{{ path('admin_message') }}"
+                    class="nav-bar__tab"
+                >
+                    Admin
+                </a>
+            {% endif %}
         </div>
-        <div class="nav-bar__buttons"></div>
+        <div class="nav-bar__buttons">
+            {{ include('components/authentication-button.html.twig' )}}
+        </div>
     </nav>
 </div>
