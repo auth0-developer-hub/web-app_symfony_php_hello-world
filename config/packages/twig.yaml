@@ -1,0 +1,19 @@
+twig:
+    default_path: '%kernel.project_dir%/templates'
+    globals:
+      footer_links:
+        - path: "https://auth0.com/why-auth0/"
+          text: "Why Auth0"
+
+        - path: "https://auth0.com/docs/get-started"
+          text: "How It Works"
+
+        - path: "https://auth0.com/blog/developers/"
+          text: "Developer Blog"
+
+        - path: "https://auth0.com/contact-us"
+          text: "Contact an Expert"
+
+when@test:
+    twig:
+        strict_variables: true

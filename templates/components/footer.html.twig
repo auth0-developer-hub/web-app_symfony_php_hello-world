@@ -1,0 +1,40 @@
+<footer class="page-footer">
+    <div class="page-footer-grid">
+        <div class="page-footer-grid__info">
+            <div class="page-footer-info__message">
+                <p class="page-footer-message__headline">
+                    <span>This sample application is brought to you by&nbsp;</span>{{
+                    include('components/footer-hyperlink.html.twig', { path: 'https://auth0.com/', text: 'Auth0' }) }}
+                </p>
+                <p class="page-footer-message__description">
+                    {% set text_link %}
+                    <span>
+                        Securely implement authentication using Auth0 on any stack and any
+                        device&nbsp;</span><u>in less than 10 minutes</u>
+                    {% endset %}
+                    {{ include('components/footer-hyperlink.html.twig', { path: 'https://auth0.com/docs/quickstarts/', text: text_link }) }}
+                </p>
+            </div>
+            <div class=" page-footer-info__button">
+                <a class="button button--secondary" href="https://auth0.com/signup" target="_blank"
+                    rel="noopener noreferrer" id="create-account-button">Create Free Auth0 Account</a>
+            </div>
+            <div class="page-footer-info__resource-list">
+                {% if footer_links is defined %}
+                    {% for link in footer_links %}
+                    <div class="page-footer-info__resource-list-item">
+                        {{ include('components/footer-hyperlink.html.twig', { path: link.path, text: link.text }) }}
+                    </div>
+                    {% endfor %}
+                {% endif %}
+            </div>
+        </div>
+        <div class="page-footer-grid__brand">
+            <div class="page-footer-brand">
+                <img class="page-footer-brand__logo" src="https://cdn.auth0.com/blog/hello-auth0/auth0-shield.svg"
+                    alt="Auth0" width="20" height="22.22" />
+                {{ include('components/footer-hyperlink.html.twig', { path: 'https://auth0.com/', text: 'Auth0 Inc' }) }}
+            </div>
+        </div>
+    </div>
+</footer>
