@@ -11,6 +11,10 @@ services:
             - '../src/DependencyInjection/'
             - '../src/Entity/'
             - '../src/Kernel.php'
+    App\Service\MessageService:
+        arguments:
+            $client: '@http_client'
+            $apiServerUrl: '%env(API_SERVER_URL)%'
     App\EventListener\ExceptionListener:
         tags:
             - { name: kernel.event_listener, event: kernel.exception }
@@ -25,3 +29,4 @@ services:
     App\Controller\AuthenticationController:
         arguments:
             $oAuthUtils: '@hwi_oauth.security.oauth_utils'
+            $audience: '%env(AUTH0_AUDIENCE)%'

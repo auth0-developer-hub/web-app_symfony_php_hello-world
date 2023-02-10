@@ -31,6 +31,6 @@ class Auth0UserProvider implements UserProviderInterface, OAuthAwareUserProvider
 
     public function loadUserByOAuthUserResponse(UserResponseInterface $response)
     {
-        return new Auth0User($response->getData());
+        return new Auth0User($response->getAccessToken(), $response->getData());
     }
 }
