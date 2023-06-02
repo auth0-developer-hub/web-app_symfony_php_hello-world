@@ -1,0 +1,6 @@
+{% if app.user != null %}
+    {{ include('components/logout-button.html.twig' )}}
+{% else %}
+    {{ include('components/signup-button.html.twig' )}}
+    {{ include('components/login-button.html.twig' )}}
+{% endif %}

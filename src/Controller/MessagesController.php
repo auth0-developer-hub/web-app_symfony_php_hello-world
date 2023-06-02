@@ -24,7 +24,7 @@ class MessagesController extends AbstractController
     {
         return $this->render('pages/message.html.twig', [
             'messageType' => 'Protected',
-            'description' => '<strong>Only authenticated users should access this page.</strong>',
+            'description' => '<strong>Only authenticated users can access this page.</strong>',
             'response' => $messageService->getProtectedMessage()
         ]);
     }
