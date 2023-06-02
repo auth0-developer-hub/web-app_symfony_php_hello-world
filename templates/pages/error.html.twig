@@ -1,0 +1,14 @@
+{% extends "layout.html.twig" %}
+
+{% block content %}
+<div class="content-layout">
+    <h1 id="page-title" class="content__title">{{ error }}</h1>
+    {% if description is defined %}
+        <div class="content__body">
+            <p id="page-description">
+                {{ description }}
+            </p>
+        </div>
+    {% endif %}
+</div>
+{% endblock  %}
