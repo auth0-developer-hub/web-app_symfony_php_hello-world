@@ -5,7 +5,7 @@
     <h1 id="page-title" class="content__title">{{ messageType }} Page</h1>
     <div class="content__body">
         <p id="page-description">
-            <span>This page retrieves a{{ messageType | lower == 'admin' ? 'n' : '' }} <strong>{{ messageType | lower }} message</strong>.
+            <span>This page retrieves a{{ messageType | lower == 'admin' ? 'n' : '' }} <strong>{{ messageType | lower }} message</strong>{{ messageType | lower == 'admin' ? ' from an external api.' : '.' }}
             </span>
             <br />
             <br />

@@ -10,5 +10,5 @@ interface MessageServiceInterface
 
     public function getProtectedMessage(): Message;
 
-    public function getAdminMessage(): Message;
+    public function getAdminMessage(string $accessToken): Message;
 }
